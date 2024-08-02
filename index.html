@@ -81,6 +81,61 @@ https://templatemo.com/tm-567-nomad-force
             }
 
         }
+
+        .experience {
+			padding: 2em;
+			max-width: 800px;
+			margin: auto;
+			background-color: white;
+			/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+		}
+
+		.experience-item {
+			margin-bottom: 2em;
+		}
+
+		.experience-item h2 {
+			color: #333;
+		}
+
+		.experience-item h3 {
+			color: #555;
+		}
+
+		.experience-item p {
+			font-size: 0.9em;
+			color: #666;
+		}
+
+		.experience-item ul {
+			list-style-type: disc;
+			padding-left: 20px;
+		}
+
+		.experience-item ul li {
+			margin-bottom: 0.5em;
+		}
+        .image-row {
+			display: flex;
+			justify-content: space-between;
+			/* Adjusts the spacing between images */
+			flex-wrap: wrap;
+			/* Allows images to wrap to the next line if necessary */
+		}
+        .image-row img {
+			width: calc(20% - 10px);
+			/* Adjust the size of the images, considering the gap */
+			margin: 5px;
+			/* Adjust the gap between images */
+		}
+        .card-img-top {
+			height: 200px;
+			object-fit: cover;
+		}
+        .app-card {
+			margin-bottom: 30px;
+		}
+
     </style>
 </head>
 
@@ -88,31 +143,23 @@ https://templatemo.com/tm-567-nomad-force
 
     <main>
 
-        <section class="hero" id="hero">
+        <section class="hero bg-white container" id="hero">
             <div class="heroText">
-                <h1 class="mt-5 mb-lg-4 txtTeal" data-aos="zoom-in" data-aos-delay="800">
+                <h1 class="mt-1 mb-lg-4 txtTeal" data-aos="zoom-in" data-aos-delay="800">
                     Awais Qadir
                 </h1>
 
-                <p class="text-secondary-white-color txtTeal" data-aos-delay="1000">
+                <p class="text-secondary-white-color txtTeal" data-aos="zoom-in" data-aos-delay="1000">
                     React Native Mobile app Developer
                 </p>
             </div>
 
-            <!-- <div class="videoWrapper">
-                    <video autoplay="" loop="" muted="" class="custom-video" poster="videos/792bd98f3e617786c850493560e11c45.jpg">
-                        <source src="videos/814dc43e870597176cad645798825c03.mp4" type="video/mp4">
 
-                        Your browser does not support the video tag.
-                    </video>
-                </div> -->
-
-            <!-- <div class="overlay"></div> -->
         </section>
 
         <nav class="navbar navbar-expand-lg bg-light  ">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand txtTeal" href="index.html">
                     <strong>Portfolio</strong>
                 </a>
 
@@ -147,26 +194,26 @@ https://templatemo.com/tm-567-nomad-force
 
 
         <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb bg-light" id="about-section">
-            <div class="container mt-3">
+            <div class="container ">
                 <div class="row justify-content-center">
-                    <!-- Image and text section -->
+
                     <div class="col-md-8 col-lg-10">
                         <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
                             <div class="col-md-6 col-lg-5 d-flex justify-content-center mb-4 mb-md-0">
                                 <div class="img-about img d-flex align-items-stretch">
-                                    <div class="overlay"></div>
-                                    <div class="img d-flex align-self-stretch align-items-center bg-secondary"
+
+                                    <div class="img d-flex align-self-stretch align-items-center bg-info"
                                         style="background-image:url(images/aws2.jpeg); background-size: cover; background-position: center; height: 200px; width: 200px;">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
                                 <div class="text-center text-md-left">
-                                    <span class="subheading">My Intro</span>
+
                                     <h2 class="mb-4 txtTeal" style="font-size: 34px; text-transform: capitalize;">About
                                         Me
                                     </h2>
-                                    <p class="colorPrimary">I am a dedicated and skilled mobile app developer with
+                                    <p class="colorPrimary ">I am a dedicated and skilled mobile app developer with
                                         almost
                                         1.5
                                         years of experience in React Native. My expertise includes building and
@@ -181,7 +228,7 @@ https://templatemo.com/tm-567-nomad-force
                         </div>
                     </div>
 
-                    <!-- Additional information section -->
+
                     <div class="col-md-8 col-lg-10  ">
                         <h4 class=" p-3 txtTeal text-center">Welcome to My Portfolio</h4>
                         <ul class="about-info mt-4 px-md-0 px-2">
@@ -215,7 +262,7 @@ https://templatemo.com/tm-567-nomad-force
                                     </tr>
                                     <tr>
 
-                                        <td   ><b>Contact number:</b></td>
+                                        <td><b>Contact number:</b></td>
                                         <td>+923340620370</td>
 
                                     </tr>
@@ -228,8 +275,8 @@ https://templatemo.com/tm-567-nomad-force
                                     <tr colspan="2">
                                         <td><b class="txtTeal">Education</b></td>
                                     </tr>
-                                 
-                                    
+
+
                                     <td><b>Qualification</b></td>
                                     <td>BSIT (3.87 cgpa)</td>
                                     <tr>
@@ -237,7 +284,7 @@ https://templatemo.com/tm-567-nomad-force
                                         <td><b>Institute</b></td>
                                         <td>Barani Institute of Information and Technology Rawalpindi</td>
 
-                                        
+
                                     <tr>
                                         <td><b class="txtTeal">Achievements</b></td>
                                         <td>Bronze Medallist</td>
@@ -246,11 +293,11 @@ https://templatemo.com/tm-567-nomad-force
                                     </tr>
                                 </tbody>
                             </table>
-                          
-                            
-                          
 
-                            
+
+
+
+
 
 
                         </ul>
@@ -259,437 +306,373 @@ https://templatemo.com/tm-567-nomad-force
             </div>
         </section>
 
+        <section class="experience container" id="Experience-section">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="section-padding pb-0" id="about">
-            <div class="container mb-5 pb-lg-5">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="mb-3" data-aos="fade-up">Let us create...</h2>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-3 mb-lg-5">
-                        <p class="me-4" data-aos="fade-up" data-aos-delay="300">You may contribute <a rel="nofollow"
-                                href="http://paypal.me/templatemo" target="_blank">a small amount</a> via PayPal if <a
-                                rel="nofollow" href="https://templatemo.com/tm-567-nomad-force" target="_parent">Nomad
-                                Force Template</a> is useful for you. This will absolutely help us to keep creating
-                            better CSS templates for you. <br><br>We provide you 100% free templates on TemplateMo
-                            website. Images are provided by FreePik and Unsplash websites.</p>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
-                        <p data-aos="fade-up" data-aos-delay="500">This Bootstrap 5 layout is free to use for your
-                            business. You are allowed to edit it in any way you like. However, please do not
-                            redistribute this template ZIP file for a template download purpose on any other website
-                            such as Free CSS collections.</p>
-                    </div>
-
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+    
+                    <h4 class="mb-4 txtTeal">Working Experience</h4>
+                    <b>Highly skilled React Native developer with 1.5 years of experience in mobile app development.
+                        Proficient in building responsive and high-performance applications. While my core expertise lies in
+                        React Native, I am adaptable and capable of working with ASP.NET given some time to familiarize
+                        myself with the technology.
+                    </b>
                 </div>
             </div>
-
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 col-12 p-0">
-                        <img src="images/elena-rabkina-eVVzwsNhNf4-unsplash.jpg" class="img-fluid about-image" alt="">
-                    </div>
-
-                    <div class="col-lg-3 col-12 bg-dark">
-                        <div
-                            class="d-flex flex-column flex-wrap justify-content-center h-100 py-5 px-4 pt-lg-4 pb-lg-0">
-                            <h3 class="text-white mb-3" data-aos="fade-up">We’re - idealists and strategic thinkers.
-                            </h3>
-
-                            <p class="text-secondary-white-color" data-aos="fade-up">Over six years in the video
-                                business</p>
-
-                            <div class="mt-3 custom-links">
-
-                                <a href="#news" class="text-white custom-link" data-aos="zoom-in"
-                                    data-aos-delay="100">Read News & Events</a>
-
-                                <a href="#contact" class="text-white custom-link" data-aos="zoom-in"
-                                    data-aos-delay="300">Work with Us</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-12 p-0">
-                        <section id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="images/people/studio-shot-beautiful-happy-retired-caucasian-female-with-pixie-hairdo-crossing-arms-her-chest-having-confident-look-smiling-broadly.jpg"
-                                        class="img-fluid team-image" alt="">
-
-                                    <div class="team-thumb bg-warning">
-                                        <h3 class="text-white mb-0">Susane R.</h3>
-
-                                        <p class="text-secondary-white-color mb-0">Founding Partner</p>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="images/people/project-leder-with-disabilities-looking-front-sitting-immobilized-wheelchair-business-office-room.jpg"
-                                        class="img-fluid team-image" alt="">
-
-                                    <div class="team-thumb bg-primary">
-                                        <h3 class="text-white mb-0">Morgan S.</h3>
-
-                                        <p class="text-secondary-white-color mb-0">CEO & Investor</p>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="images/people/asia-business-woman-feeling-happy-smiling-looking-camera-while-relax-home-office.jpg"
-                                        class="img-fluid team-image" alt="">
-
-                                    <div class="team-thumb bg-success">
-                                        <h3 class="text-white mb-0">Naomi W.</h3>
-
-                                        <p class="text-secondary-white-color mb-0">Art Director</p>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="images/people/happy-african-american-professional-manager-smiling-looking-camera-headshot-portrait.jpg"
-                                        class="img-fluid team-image" alt="">
-
-                                    <div class="team-thumb bg-info">
-                                        <h3 class="text-white mb-0">Robinson H.</h3>
-
-                                        <p class="text-secondary-white-color mb-0">Sales & Marketing</p>
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <img src="images/people/working-business-lady.jpg" class="img-fluid team-image"
-                                        alt="">
-
-                                    <div class="team-thumb bg-danger">
-                                        <h3 class="text-white mb-0">Jane M.</h3>
-
-                                        <p class="text-secondary-white-color mb-0">Project Management</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-
-                            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </section>
-
-                    </div>
-                </div>
+    
+    
+            <div class="experience-item">
+                <h5 class="txtTeal">Junier React Native Developer</h5>
+                <B>Sadiq's Software House, Twin Cities</B>
+                <p><strong>August 2023 - Present (1 year)</strong></p>
+                <ul>
+                    <li>Developed and maintained mobile applications using React Native for both Android and iOS platforms.
+                    </li>
+                    <li>Integrated Firebase for backend services, including Firestore, authentication, and messaging.</li>
+                    <li>Implemented custom features such as real-time chat, notifications, and PDF generation using
+                        <code>react-native-html-to-pdf</code>.
+                    </li>
+                    <li>Collaborated with the design team to create responsive and user-friendly interfaces.</li>
+                    <li>Ensured code quality and performance optimization through effective debugging and testing practices.
+                    </li>
+                </ul>
+                <p><strong>Projects</strong></p>
+                <ol>
+                    <li>SKANS Chat Application</li>
+                    <ul>
+                        <li>https://play.google.com/store/apps/details?id=com.chatapplication1 (Live App)</li>
+                    </ul>
+                </ol>
+                <ol>
+                    <li>Service provider App</li>
+                    <ul>
+                        <li>Gather Requirements from Client</li>
+                        <li>Plan Schema</li>
+                        <li>Figma Design</li>
+                        <li>User Interface design on react native</li>
+                    </ul>
+                </ol>
+    
+    
+            </div>
+            <div class="experience-item">
+                <h5 class="txtTeal">Junier React Native Developer</h5>
+                <b>Future in technology</b>
+                <p><strong>Feb 2023 - July 2023</strong></p>
+                <p><strong>Projects</strong></p>
+                <ol>
+                    <li>Iqbal Poetry App</li>
+                    <ul>
+                        <li>User Interface in react</li>
+                        <li>Api Integration</li>
+                        <li>Responsive Design</li>
+    
+                    </ul>
+                </ol>
             </div>
         </section>
 
-        <section class="section-padding" id="portfolio">
+
+        <section class="ftco-section bg-light" id="skills-section">
             <div class="container">
-                <div class="row">
-
-                    <div class="col-12">
-                        <h2 class="mb-5 text-center" data-aos="fade-up">Portfolio</h2>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-md-12 heading-section text-center ftco-animate">
+    
+                        <h4 class="mb-4 txtTeal">My Skills</h4>
+                        <b>Highly skilled React Native developer with 1.5 years of experience in mobile app development.
+                            Proficient in building responsive and high-performance applications. While my core expertise
+                            lies in React Native, I am adaptable and capable of working with ASP.NET given some time to
+                            familiarize myself with the technology.
+                        </b>
                     </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="portfolio-thumb mb-5" data-aos="fade-up">
-                            <a href="images/portfolio/visuals-Y4qzW3AsvqI-unsplash.jpeg" class="image-popup">
-                                <img src="images/portfolio/visuals-Y4qzW3AsvqI-unsplash.jpeg"
-                                    class="img-fluid portfolio-image" alt="">
-                            </a>
-
-                            <div class="portfolio-info">
-                                <h4 class="portfolio-title mb-0">Effortless</h4>
-
-                                <p class="text-danger">Branding</p>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-thumb" data-aos="fade-up">
-                            <a href="images/portfolio/severin-candrian-nn3uIZqmUtE-unsplash.jpeg" class="image-popup">
-                                <img src="images/portfolio/severin-candrian-nn3uIZqmUtE-unsplash.jpeg"
-                                    class="img-fluid portfolio-image" alt="">
-                            </a>
-
-                            <div class="portfolio-info">
-                                <h4 class="portfolio-title mb-0">Health technology</h4>
-
-                                <p class="text-success">Art Direction</p>
-                            </div>
+                </div>
+                <div class="row progress-circle mb-5">
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">React native</h2>
+    
+    
                         </div>
                     </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="portfolio-thumb mt-5 mt-lg-0 mb-5" data-aos="fade-up">
-                            <a href="images/portfolio/tyler-nix-Y1drF0Y3Oe0-unsplash.jpeg" class="image-popup">
-                                <img src="images/portfolio/tyler-nix-Y1drF0Y3Oe0-unsplash.jpeg"
-                                    class="img-fluid portfolio-image" alt="">
-                            </a>
-
-                            <div class="portfolio-info">
-                                <h4 class="portfolio-title mb-0">Maki</h4>
-
-                                <p class="text-warning">Website</p>
-                            </div>
-                        </div>
-
-                        <div class="portfolio-thumb" data-aos="fade-up">
-                            <a href="images/portfolio/thought-catalog-gv-T-OjLe4c-unsplash.jpeg" class="image-popup">
-                                <img src="images/portfolio/thought-catalog-gv-T-OjLe4c-unsplash.jpeg"
-                                    class="img-fluid portfolio-image" alt="">
-                            </a>
-
-                            <div class="portfolio-info">
-                                <h4 class="portfolio-title mb-0">The gig economy</h4>
-
-                                <p class="text-info">Graphic</p>
-                            </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Firebase Firestore</h2>
+    
+    
+    
                         </div>
                     </div>
-
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Sql Server</h2>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Javascript</h2>
+    
+    
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Asp .net</h2>
+    
+                            <!-- Progress bar 1 -->
+                            <!-- <div class="progress mx-auto" data-value='80'>
+                                <span class="progress-left">
+                                    <span class="progress-bar border-primary"></span>
+                                </span>
+                                <span class="progress-right">
+                                    <span class="progress-bar border-primary"></span>
+                                </span>
+                                <div
+                                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                    <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+                                </div>
+                            </div> -->
+                            <!-- END -->
+    
+                            <!-- Demo info -->
+    
+                            <!-- END -->
+                        </div>
+                    </div>
+    
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">RESTful APIs</h2>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Third-Party API Integration</h2>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Responsive Design</h2>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Task Prioritization</h2>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Time Management</h2>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">Deployment on Playstore</h2>
+    
+    
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <div class="bg-white rounded-lg shadow p-4">
+                            <h2 class="h5 font-weight-bold text-center  ">integration of google map</h2>
+    
+    
+                        </div>
+                    </div>
+    
                 </div>
             </div>
         </section>
 
-        <section class="news section-padding" id="news">
+
+        <section class="ftco-section ftco-project align-content-center " id="projects-section">
+            <div class="container-fluid px-md-4">
+                <div class="row justify-content-center pb-5">
+                    <div class="col-md-12 heading-section text-center ftco-animate">
+                        <span class="subheading text-secondary">Accomplishments</span>
+                        <h5 class="mb-4 txtTeal">My Projects</h5>
+                    </div>
+                </div>
+    
+    
+                <div class="card bg-light">
+    
+                    <div class="card-body">
+                        <h5 class="card-title text-center txtTeal">Iqbal Poetry App</h5>
+                        <p class="card-text"  >The "Allama Iqbal Poetry" app is a dedicated platform for enthusiasts
+                            of Allama Iqbal's poetry, featuring a rich collection of his most profound and
+                            inspirational works. Users can explore various categories of poetry, save their
+                            favorites, and share verses with friends and family</p>
+                        <B>Key Features</B>
+                        <div class="container text-center">
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    Extensive Poetry Collection
+                                </div>
+                                <div class="col">
+                                    API integration
+                                </div>
+                                <div class="col">
+                                    Favorites
+                                </div>
+                                <div class="col">
+                                    Sharing
+                                </div>
+    
+    
+                            </div>
+    
+                            <div class="row align-items-start">
+                                <div class="col">
+                                    Search Functionality
+                                </div>
+                                <div class="col">
+                                    User-Friendly Interface
+                                </div>
+                                <div class="col">
+                                    play audio poems
+                                </div>
+                                <div class="col">
+                                    Video Poems
+                                </div>
+                                <!-- <div class="col">
+                                                <img src="images/skan2.jpg" alt="Blurred Image" class="blur">
+    
+                                              </div> -->
+                            </div>
+                            <div class="m-3">
+                                <B class="txtTeal">Some screen shots of App are given below</B>
+    
+                            </div>
+                            <div class="image-row">
+                                <img src="images/iqbalApp ss/Login.jpeg" alt="Image 1" class="blur">
+                                <img src="images/iqbalApp ss/UpperDashboard.jpeg" alt="Image 2" class="blur">
+                                <img src="images/iqbalApp ss/DashboardLow.jpeg" alt="Image 3" class="blur">
+                                <img src="images/iqbalApp ss/search.jpeg" alt="Image 4" class="blur">
+                                <img src="images/iqbalApp ss/UrduFarsi.jpeg" alt="Image 5" class="blur">
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+    
+                    <div class="card">
+    
+                        <div class="card-body bg-light">
+                            <h5 class="card-title text-center txtTeal">SKANS CHAT APP</h5>
+                            <p class="card-text">This App is developed for <b>SKANS SCHOOL SYSTEM</b>There are three
+                                roles include Principal,Teachers and students.Skan Chat App is a comprehensive
+                                communication platform designed
+                                specifically for educational institutions.
+                                <b>Communication Between Teachers and Students</b>
+                            </p>
+    
+                            <div class="container text-center">
+                                <div class="row align-items-start">
+                                    <div class="col">
+                                        Live chatting
+                                    </div>
+                                    <div class="col">
+                                        Push notifications
+                                    </div>
+    
+                                    <div class="col">
+                                        change design into Pdf for chalan fees
+                                    </div>
+    
+    
+    
+    
+                                </div>
+    
+                                <div class="row align-items-start">
+                                    <div class="col">
+                                        FireBase for backend
+                                    </div>
+                                    <div class="col">
+                                        Search Functionality
+                                    </div>
+                                    <div class="col">
+                                        Share images and Pdf
+                                    </div>
+                                    <div class="col">
+                                        Fast working
+                                    </div>
+                                    -
+    
+                                </div>
+                                <div class="m-3">
+                                    <B class="txtTeal">Some screen shots of App are given below</B>
+    
+                                </div>
+                                <div class="image-row">
+                                    <img src="images/Skan/studentDashboard.jpeg" alt="Image 1" class="blur">
+                                    <img src="images/Skan/chalan.jpeg" alt="Image 2" class="blur">
+                                    <img src="images/Skan/teacherDashboard.jpeg" alt="Image 3" class="blur">
+                                    <img src="images/Skan/studlist.jpeg" alt="Image 4" class="blur">
+                                    <img src="images/Skan/makePost.jpeg" alt="Image 5" class="blur">
+                                </div>
+                            </div>
+    
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+ 
+        <footer class="ftco-footer ftco-section">
             <div class="container">
+    
                 <div class="row">
-
-                    <div class="col-12">
-                        <h2 class="mb-5 text-center" data-aos="fade-up">News & Events</h2>
+                    <div class="col-md-12 text-center">
+    
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                            is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                target="_blank">Colorlib</a>.
+                            Modified by Awais Qadir
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+    
                     </div>
-
-                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                        <div class="news-thumb" data-aos="fade-up">
-                            <a href="news-detail.html" class="news-image-hover news-image-hover-warning">
-                                <img src="images/news/caroline-lm-uqveD8dYPUM-unsplash.jpg"
-                                    class="img-fluid large-news-image news-image" alt="">
-                            </a>
-
-                            <div class="news-category bg-warning text-white">News</div>
-
-                            <div class="news-text-info">
-                                <h5 class="news-title">
-                                    <a href="news-detail.html" class="news-title-link">The rise of the gig economy
-                                        spells the end for these workers the old system</a>
-                                </h5>
-
-                                <span class="text-muted">22 hours ago</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-12">
-                        <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                            <div class="news-top w-100">
-
-                                <a href="news-detail.html" class="news-image-hover news-image-hover-primary">
-                                    <img src="images/news/jean-philippe-delberghe-MmanXAs1sKw-unsplash.jpeg"
-                                        class="img-fluid news-image" alt="">
-                                </a>
-
-                                <div class="news-category bg-primary text-white">Events</div>
-                            </div>
-
-                            <div class="news-bottom w-100">
-                                <div class="news-text-info">
-                                    <h5 class="news-title">
-                                        <a href="news-detail.html" class="news-title-link">Job Opportunities: Digital,
-                                            Marketing</a>
-                                    </h5>
-
-                                    <div class="d-flex flex-wrap">
-                                        <span class="text-muted me-2">
-                                            <i class="bi-geo-alt-fill me-1 mb-2 mb-lg-0"></i>
-                                            Alaska,
-                                        </span>
-
-                                        <span class="text-muted">August 6, 2021</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
-                            <div class="news-top w-100" data-aos="fade-up">
-
-                                <a href="news-detail.html" class="news-image-hover news-image-hover-success">
-                                    <img src="images/news/maria-stewart-p4tj0g-_aMM-unsplash.jpeg"
-                                        class="img-fluid news-image" alt="">
-                                </a>
-
-                                <div class="news-category bg-success text-white">News</div>
-                            </div>
-
-                            <div class="news-bottom w-100">
-                                <div class="news-text-info">
-                                    <h5 class="news-title">
-                                        <a href="news-detail.html" class="news-title-link">What happened to new viral
-                                            video?</a>
-                                    </h5>
-
-                                    <span class="text-muted">6 days ago</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </section>
-
-        <section class=" contact section-padding" id="contact">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-7 col-12 mx-auto">
-
-                        <h2 class="mb-4 text-center" data-aos="fade-up">Dont' be shy, write to us</h2>
-
-                        <form action="#" method="post" class="contact-form" role="form" data-aos="fade-up">
-
-                            <div class="row">
-
-                                <div class="col-lg-6 col-6">
-                                    <label for="name" class="form-label">Name <sup class="text-danger">*</sup></label>
-
-                                    <input type="text" name="name" id="name" class="form-control"
-                                        placeholder="Full name" required>
-                                </div>
-
-                                <div class="col-lg-6 col-6">
-                                    <label for="email" class="form-label">Email <sup class="text-danger">*</sup></label>
-
-                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                        class="form-control" placeholder="Email address" required>
-                                </div>
-
-                                <div class="col-12 my-4">
-                                    <label for="message" class="form-label">How can we help?</label>
-
-                                    <textarea name="message" rows="6" class="form-control" id="message"
-                                        placeholder="Tell us about the project" required></textarea>
-
-                                </div>
-
-                                <div class="col-12">
-                                    <label for="services" class="form-label">Services<sup
-                                            class="text-danger">*</sup></label>
-                                </div>
-
-                                <div class="col-lg-4 col-12">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="checkbox1" name="checkbox1" class="form-check-input">
-
-                                        <label class="form-check-label" for="checkbox1">Branding</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-12 my-2 my-lg-0">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="checkbox2" name="checkbox2" class="form-check-input">
-
-                                        <label class="form-check-label" for="checkbox2">Digital Experiences</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-4 col-12">
-                                    <div class="form-check">
-                                        <input type="checkbox" id="checkbox3" name="checkbox3" class="form-check-input">
-
-                                        <label class="form-check-label" for="checkbox3">Web Development</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-5 col-12 mx-auto mt-5">
-                                <button type="submit" class="form-control">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="google-map">
-            <iframe
-                src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                class="map-iframe" width="100%" height="400" style="border:0;" allowfullscreen=""
-                loading="lazy"></iframe>
-        </section>
+        </footer>
 
     </main>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-12">
-                    <h5 class="text-white">
-                        <i class="bi-geo-alt-fill me-2"></i>
-                        State of Rio de Janeiro, Brazil
-                    </h5>
-
-                    <a href="mailto:info@company.com" class="custom-link mt-3 mb-5">
-                        info@company.com
-                    </a>
-                </div>
-
-                <div class="col-6">
-                    < class="copyright-text mb-0">Copyright © Nomad Force 2021
-
-                        <br><br>Design: <a href="https://templatemo.com/page/1" target="_parent">TemplateMo</a><br><br>
-
-                        Distributed By: <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-                        </p>
-
-                </div>
-
-                <div class="col-lg-3 col-5 ms-auto">
-                    <ul class="social-icon">
-                        <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-twitter"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                        <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-                    </ul>
-                </div>
-
-            </div>
-            </section>
-    </footer>
+  
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>

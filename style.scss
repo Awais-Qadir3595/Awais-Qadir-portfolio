@@ -134,3 +134,128 @@ $secondary: #a0f669;
 	}
 }
 
+.ftco-footer {
+	font-size: 16px;
+	background: $darken;
+	padding: 7em 0;
+	z-index: 0;
+
+	.ftco-footer-logo {
+		text-transform: uppercase;
+		letter-spacing: .1em;
+	}
+	.ftco-footer-widget {
+		h2 {
+			font-weight: normal;
+			color: $white;
+			margin-bottom: 40px;
+			font-size: 22px;
+			font-weight: 600;
+		}
+		ul{
+			li{
+				margin-bottom: 10px;
+				a{
+					color: rgba(255,255,255,.6);
+					span{
+						// color: $white;
+						color: rgba(255,255,255,.6);
+					}
+				}
+			}
+		}
+	}
+	p {
+		color: rgba($white, .7);
+	}
+	a {
+		color: rgba($white, .7);
+		&:hover {
+			color: $white;
+		}
+	}
+	.ftco-heading-2 {
+		font-size: 17px;
+		font-weight: 400;
+		color: $black;
+	}
+}
+
+
+.heading-section{
+	.subheading{
+		font-size: 13px;
+		font-weight: 700;
+		display: block;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+		color: rgba(0,0,0,1);
+		color: $primary;		
+		letter-spacing: 3px;
+	}
+	h2{
+		font-size: 40px;
+		font-weight: 600;
+		span{
+			font-weight: 400;
+		}
+		@include media-breakpoint-down(sm){
+			font-size: 28px;
+		}
+	}
+	&.heading-section-white{
+		.subheading{
+			color: rgba(255,255,255,.9) !important;
+		}
+		h2{
+			color: $white;
+		}
+		p{
+			color: rgba(255,255,255,.9);
+		}
+	}
+}
+.ftco-footer-social {
+	li {
+		list-style: none;
+		margin: 0 10px 0 0;
+		display: inline-block;
+		a {
+			height: 40px;
+			width: 40px;
+			display: block;
+			background: rgba($white, .1);
+			border-radius: 50%;
+			position: relative;
+			span {
+				position: absolute;
+				font-size: 20px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}
+.footer-small-nav {
+	> li {
+		display: inline-block;
+		a {
+			margin: 0 10px 10px 0;
+			&:hover, &:focus {
+				color: $primary;
+			}
+		}
+	}
+}
+.media {
+	.ftco-icon {
+		width: 100px;
+		span {
+			color: $primary;
+		}
+	}
+}
